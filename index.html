@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 98%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+#nav1 {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  font-size: 17px;
+  /* margin-right: 30px; */
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  /* padding-left: 1 rem; */
+
+  padding-right: 10px;
+}
+
+
+
+
+#nav2 {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: red;
+}
+
+#pincartlogin {
+  display: flex;
+  font-size: 17px;
+  font-weight: 700;
+  width: 25%;
+  /* padding-left: 1 rem; */
+  justify-content: end;
+
+  padding-right: 10px;
+}
+#pincartlogin a {
+  color: white;
+  text-decoration: none;
+}
+#brandlogo {
+  margin-left: 2rem;
+  width: 20%;
+}
+#brandlogo img {
+  width: 60%;
+  padding-bottom: 0.7rem;
+}
+
+#searchbar {
+  background-color: white;
+  height: 2.3rem;
+  border-radius: 25px;
+  margin-right: 7rem;
+  width: 37%;
+}
+#searchbar button {
+  background-color: white;
+  border: 0px solid white;
+  
+  color: gray;
+  width: 2rem;
+  border-radius: 50px;
+}
+#searchbar input {
+  width: 85%;
+  padding: 0px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
+#searchba input {
+  width: 78%;
+  padding: 10px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
+
+
+/* BLUE NAV BAR */
+
+#navblue {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #003380;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+#navblue a {
+  text-decoration: none;
+  color: white;
+}
+#fImage>img{
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+#line{
+    display: flex;
+    justify-self: auto;
+    margin-top: 20px;
+    background-color: beige;
+    
+}
+#line > span{
+    font-size: 20px;
+}
+#line > button{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+#product{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+  column-gap: 10px;
+
+}
+#product > div{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#product > div > img {
+    width: 100%;
+    
+}
+#product > div> img:hover {
+    transform: scale(1.1);
+
+
+}
+#line1{
+    display: flex;
+margin-top: 20px;
+}
+#line1 span{
+    font-size: 20px;
+}
+#line1 button{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#product1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+  column-gap: 10px;
+}
+#product1 > div{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#product1 > div > img {
+    width: 100%;
+    }
+#product1 > div> img:hover {
+    transform: scale(1.1);
+}
+#b{
+    font-weight: bold;
+    color: blue;
+}
+#b:hover{
+    color: red;
+}
+#line3{
+    font-size: 20px;
+}
+#tv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    column-gap: 10px;
+}
+#tv>div> img{
+    width: 100%;
+}
+#mac{
+    margin-top: 70px;
+}
+#mac>div>img{
+
+    width: 100%;
+
+}
+#tv>div:hover{
+    transform: scale(1.05);
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <div id="nav1">
+            <div>Find a store </div>
+            <div>| Admin Side |</div>
+            <div>Concat us</div>
+          </div>
+
+
+
+          <div id="navbarsticky">
+            <div id="nav2">
+              <div id="brandlogo"><img  src="./Add a little bit of body text (1) (1).png" alt="logo" /></div>
+              <div id="searchbar">
+                <input type="text" placeholder="Find your favourite products " ></input>
+                <button>
+                  <i class="fa fa-search"></i>
+                Search</button>
+              </div>
+
+
+              <div id="pincartlogin">
+                <div class="location"><a href="/map.html">Select your PIN Code</a></div>
+                <div><a href="/cart.html"> <span class="cartno">|| Cart ||</span> </a></div> 
+                <div>
+                        <a href="/signup1.html"> <span class="user"> Login</span></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="navblue">
+                <div><a href="/mobile.html">MOBILES & TABLETS</a></div>
+                <div><a href="/tv.html">TELEVISIONS </a></div>
+                <div> <a href="/earphone.html">AUDIO</a></div>
+                <div> <a href="/allproduct.html">HOME APPLIANCES</a></div>
+                <div><a href="/monitor.html">COUMPUTERS</a></div>
+                <div> <a href="/mobile.html">CAMERAS</a></div>
+                <div> <a href="/allproduct.html">KITCHEN APPLIANCES</a></div>
+                <div><a href="/dailyuse.html">PERSONAL CARE </a></div>
+                <div><a href="/watch.html">ACCESSORIES</a></div>
+             </div>
+     
+           </div>
+           
+         </header><!-- header end -->
+
+         <div id="fImage">
+            <img src="https://www.reliancedigital.in/medias/MIdnight-Sale-Carousel-07-12-2022.jpg?context=bWFzdGVyfGltYWdlc3w5OTA2OXxpbWFnZS9qcGVnfGltYWdlcy9oNzYvaGM5Lzk5MjgzODQ4Mzk3MTAuanBnfGUxZTBiNDNlOGU2ZWUzMzg2YjU3MWMwYmJiNTBhZjM5ODdkMzhjYjNiYWZhYzllYWJmNzE0MGY4MTFmMjY3MDU" alt="Image">
+         </div>
+
+        <div id="line">
+       <span>Personal Care Carnival   </span>
+       <button>View all</button>
+        </div>
+
+        <div id="product">
+
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Philips-BT1230-15-TRIMMER-492664323-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MzcyfGltYWdlL2pwZWd8aW1hZ2VzL2g1OS9oYjkvOTc0OTU4NTc4ODk1OC5qcGd8M2JlNGNiNjc3MDUxODY2ZjAwMGQyODE2NTdiOTZkZmM2ODY5Yjg4NDMyMDc0ZDQ1MTE3MWIzMDg0NjgxNTM2NQ " alt="trimmer">
+           <p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+           <p>Offer Price: ₹825.00</p>
+           <p>M.R.P: ₹945.00</p>
+           <p>You Save: 13%(₹120)</p>
+           </div>
+
+        
+
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Ambrane-AHD-21-HairDryersandStylers-492664658-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDMyMnxpbWFnZS9qcGVnfGltYWdlcy9oYjkvaDliLzk4ODc2Njc3NDg4OTQuanBnfDdiZThjZmVkMzQ1NzAxZmUxMTAxNzVlN2E3MzM2Y2UzZmIxM2RlYTlkYzNlYjgzNDZkOWE4ZDc4OTM5YjA1MDU" alt="trimmer">
+           <p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+           <p>Offer Price: ₹825.00</p>
+           <p>M.R.P: ₹945.00</p>
+           <p>You Save: 13%(₹120)</p>
+           </div>
+
+           <div>
+            <img src="https://www.reliancedigital.in/medias/BPL-BBTD001GK-Shaver-and-Trimmers-491903184-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0Mjc2M3xpbWFnZS9qcGVnfGltYWdlcy9oZGEvaDUwLzk2MjExMzQwMTY1NDIuanBnfDU4YWM2ZDBiZDQwNjM5ZjEwMzQ0ZjEyMTU0OWZmM2MzOWUzZDVlZmI0NDUwYTU1YTdlYzIxMzRjYmRmMmQwOGE" alt="trimmer">
+       <p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+       <p>Offer Price: ₹825.00</p>
+       <p>M.R.P: ₹945.00</p>
+       <p>You Save: 13%(₹120)</p>
+       </div>
+
+       <div>
+        <img src="https://www.reliancedigital.in/medias/Lifelong-LLPCM17-Personal-Care-492910978-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMjEwOHxpbWFnZS9qcGVnfGltYWdlcy9oNDUvaDM4Lzk4OTgzMDg5NjAyODYuanBnfDdmYTFmYWVkZTdiMzUyNjJlYThiMDcyYmIyMzdlODcxMzlkYWU5N2I5NjBjOTgwOTY1ZWZiYWYwZmQyMzcxZDk" alt="trimmer">
+   <p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+   <p>Offer Price: ₹825.00</p>
+   <p>M.R.P: ₹945.00</p>
+   <p>You Save: 13%(₹120)</p>
+   </div>
+
+   <div>
+    <img src="https://www.reliancedigital.in/medias/Philips-BT3102-15-Shaver-and-Trimmers-491891822-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTE5NHxpbWFnZS9qcGVnfGltYWdlcy9oMjAvaDJmLzkzMzI2NjMxMjM5OTguanBnfDcwNDg1ZTA4OTg0MzllNzFjMDU3MDk2N2Q3NWJmMTUzZGE1MzZlOGNhY2VjZjllOTU3OTM2YjFkZDYzOGJkZWQ" alt="trimmer">
+<p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+<p>Offer Price: ₹825.00</p>
+<p>M.R.P: ₹945.00</p>
+<p>You Save: 13%(₹120)</p>
+</div>
+
+</div>
+
+<div id="line1">
+    <span>Pre Summer Sale | Upto 60% Off   </span>
+    <button>View all</button>
+</div>
+
+
+<div id="product1">
+
+    <div>
+        <img src="https://www.reliancedigital.in/medias/LG-PW-Q18WUXA-Air-Conditioner-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNzYxNHxpbWFnZS9qcGVnfGltYWdlcy9oMjAvaGRhLzk3NzU4NzA3MDU2OTQuanBnfDYyNGM1MGI3MjlmZjRmZjQ1YTgwMWEwOGI2ZGQ0YzgwNDY2NTBmZTgxYTkxYjU5NGMzY2E2ZTY0YTE1NzhlMzU" alt="trimmer">
+   <p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+   <p>Offer Price: ₹825.00</p>
+   <p>M.R.P: ₹945.00</p>
+   <p>You Save: 13%(₹120)</p>
+   </div>
+
+
+
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Whirlpool-DoubleDoor-Refrigerator-491666431-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxODAyM3xpbWFnZS9qcGVnfGltYWdlcy9oMDgvaDQ4LzkzNTkxOTQ4ODIwNzguanBnfDEzZjA3MGNkZGVjMWRmNzAwOGZiZjc3MGE1NmM3OTkzMDQzZjE0NmE2YTQ5M2E4NjdkMDY0ZDMzNTE2ZTc0NjE" alt="trimmer">
+   <p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+   <p>Offer Price: ₹825.00</p>
+   <p>M.R.P: ₹945.00</p>
+   <p>You Save: 13%(₹120)</p>
+   </div>
+
+   <div>
+    <img src="https://www.reliancedigital.in/medias/Kelvinator-KCT-A300-AirCooler-491604448-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MzY4MnxpbWFnZS9qcGVnfGltYWdlcy9oNjQvaDA0Lzk3NzY3NTA2NTc1NjYuanBnfGY4MTVmNWE4MWFjNzk2MmQ1YWNiNzYyYzZhNGEyNTA5NjJmZTlkMDgxZTQ0ZmI0MGE4ZGUyOWVhYjJlNzRjODU" alt="trimmer">
+<p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+<p>Offer Price: ₹825.00</p>
+<p>M.R.P: ₹945.00</p>
+<p>You Save: 13%(₹120)</p>
+</div>
+
+<div>
+<img src="https://www.reliancedigital.in/medias/BPL-BJC00150-Centrifugal-Juicer-491903046-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDI4NHxpbWFnZS9qcGVnfGltYWdlcy9oODIvaGM4Lzk2MTM1Nzg5NjA5MjYuanBnfDlhOTU3YjBiOTYxNjE0YjU2MjczMDhkN2ZjZGZiOTcwNzk0MWI3MmYwY2EyYzAxZGI0Y2FjZTAyMTU4MTI3Yjg" alt="trimmer">
+<p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+<p>Offer Price: ₹825.00</p>
+<p>M.R.P: ₹945.00</p>
+<p>You Save: 13%(₹120)</p>
+</div>
+
+<div>
+<img src="https://www.reliancedigital.in/medias/LG-GL-N292DDSY-Refrigerator-491539090-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMzg4fGltYWdlL2pwZWd8aW1hZ2VzL2gyZi9oZWEvOTExMjU0OTE2MzAzOC5qcGd8M2I2OWRlZGYyMjU2YzA2ZmU0Y2QyOGMxZmQ1YTdlODM4ZWUzMzYzZjczZjRkZjEzY2ViNDM0ODhkNTkwNGQzNA" alt="trimmer">
+<p id="b">Philips Beard Trimmer BT1230?15 with USB Charging</p>
+<p>Offer Price: ₹825.00</p>
+<p>M.R.P: ₹945.00</p>
+<p>You Save: 13%(₹120)</p>
+</div>
+
+</div>
+
+<div id="line3">
+
+    <p>Great Deals  On  Electronics</p>
+</div>
+<div id="tv">
+
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Motorola-Moto-G42-Small-Banner-28-12-2022.jpg?context=bWFzdGVyfGltYWdlc3wyOTkyNXxpbWFnZS9qcGVnfGltYWdlcy9oZWUvaGNmLzk5NTg4MjY2MzkzOTAuanBnfDU2YTBjMmZhZmYzODEzMjBhNGM0ZWFhODNjZjEyNzMyNDQyZTZiYTc2ZDZkNGMzNmY5MmNkN2Q4OTRjZDRmMjI" alt="">
+    </div>
+    <div>
+        <img src="https://www.reliancedigital.in/medias/OnePlus-TVs-12999-Small-Banner-03-02-2023.jpg?context=bWFzdGVyfGltYWdlc3wzODc4N3xpbWFnZS9qcGVnfGltYWdlcy9oNGIvaDc1Lzk5NTc2NTM3NzQzNjYuanBnfDQ3ZmNhYWNjYjQ4ZjUxMjkzYjJmNzM2YjNhYjYxMWQxNjExNzMzMWI1ZjQ0ZTYzMGNmMDhiNDljMWIzNmFhZDg" alt="">
+    </div>
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Smartwatches-Small-Banner-28-12-2022.jpg?context=bWFzdGVyfGltYWdlc3wzMTY3M3xpbWFnZS9qcGVnfGltYWdlcy9oNTEvaGY3Lzk5Mzc4OTUyOTI5NTguanBnfDQ2NzM2YjAxZTkzYmJiMTNlMjk4ODkxNTNlMTczMDcxYzU4NjMzZDZmNWQ3N2I5MGViNmMzZDAwNjExMmUxNTE" alt="">
+    </div>
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Neckband-True-Wireless-Small-Banner-28-12-2022.jpg?context=bWFzdGVyfGltYWdlc3wzMjg5OHxpbWFnZS9qcGVnfGltYWdlcy9oNzYvaDE2Lzk5Mzc4OTUwOTYzNTAuanBnfGE1OTcxMTM4NGUyMjU3MmM4NTc4YTI1NThkMmQwOTc1ZDU2N2YwNjRjMWNiZTU2YjZiMzcwOTVkYjc0MzQ4MDc" alt="">
+    </div>
+</div>
+<div id="mac">
+<div>
+    <img src="https://www.reliancedigital.in/medias/MacBook-Pro-CLP-Banner-31-01-2023.jpg?context=bWFzdGVyfGltYWdlc3w3MDc1OHxpbWFnZS9qcGVnfGltYWdlcy9oMmMvaDlkLzk5NTU0OTI2MjY0NjIuanBnfDY1YTA2ZGYyYjU0YzQxZmFkMDk3MDQ5N2RmZmVlODg0MTczYWE5YWNlOTJkMDQ1NmMyMzAwNzFhNGY5MDM2MDA" alt="">
+</div>
+
+</div>
+
+    
+</body>
+</html>
