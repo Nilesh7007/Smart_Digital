@@ -26,6 +26,7 @@ body{
   /* padding-left: 1 rem; */
 
   padding-right: 10px;
+  padding: 15px;
 }
 
 
@@ -120,19 +121,21 @@ body{
     /* box-sizing: border-box; */
 }
 #line{
-    display: flex;
-    justify-self: auto;
+
+    
     margin-top: 20px;
-    background-color: beige;
+
+    margin-bottom: 20px;
     
 }
 #line > span{
     font-size: 20px;
 }
-#line > button{
+#line button{
     color: white;
     background-color: blue;
     border: none;
+    padding: 4px;
 }
 #product{
     display: grid;
@@ -145,7 +148,7 @@ body{
     width: 100%;
     justify-content: center;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 
 }
 #product > div > img {
@@ -154,20 +157,20 @@ body{
 }
 #product > div> img:hover {
     transform: scale(1.1);
-
-
 }
+
 #line1{
-    display: flex;
-margin-top: 20px;
-}
-#line1 span{
+     
+    margin-top: 20px;
+
+    margin-bottom: 20px;
     font-size: 20px;
 }
-#line1 button{
+#line1  button{
     background-color: blue;
     color: white;
     border: none;
+    padding: 4px;
 }
 #product1{
     display: grid;
@@ -179,7 +182,7 @@ margin-top: 20px;
     width: 100%;
     justify-content: center;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 
 }
 #product1 > div > img {
@@ -196,6 +199,10 @@ margin-top: 20px;
     color: red;
 }
 #line3{
+     
+    margin-top: 20px;
+
+    margin-bottom: 20px;
     font-size: 20px;
 }
 #tv{
@@ -218,7 +225,124 @@ margin-top: 20px;
 #tv>div:hover{
     transform: scale(1.05);
 }
+#line4{
+    font-size: 20px;
+ 
+    margin-top: 20px;
 
+    margin-bottom: 20px;
+}
+#line4 button{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 4px;
+}
+#product2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+  column-gap: 10px;
+}
+#product2 > div{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+}
+#product2 > div > img {
+    width: 100%;
+    }
+#product2 > div> img:hover {
+    transform: scale(1.1);
+}
+#line5{
+    font-size: 20px;
+ 
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+#line5 button{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 4px;
+    
+
+}
+#product3{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+  column-gap: 10px;
+}
+#product3 > div{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+}
+#product3 > div > img {
+    width: 100%;
+    }
+#product3 > div> img:hover {
+    transform: scale(1.1);
+}
+#last{
+    text-align: center;
+}
+#product4{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+  column-gap: 10px;
+  
+  text-align: center;
+}
+#product4 > div{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+}
+#product4 > div > img {
+    width: 100%;
+    padding-bottom: 20px;
+    }
+#product4 > div> img:hover {
+    transform: scale(1.1);
+}
+
+#lastbtn>a>button{
+  
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    margin: auto;
+display: block;
+  margin-bottom: 20px;  
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 25px;
+  
+
+}
+#lastbtn>a>button:hover{
+    background-color: aliceblue;
+    color: black;
+
+}
+#lastbtn > a{
+    text-decoration: none;
+}
 
     </style>
 </head>
@@ -240,7 +364,7 @@ margin-top: 20px;
               <div id="searchbar">
                 <input type="text" placeholder="Find your favourite products " ></input>
                 <button>
-                  <i class="fa fa-search"></i>
+                  <!-- <i class="fa fa-search"></i> -->
                 Search</button>
               </div>
 
@@ -249,7 +373,7 @@ margin-top: 20px;
                 <div class="location"><a href="/map.html">Select your PIN Code</a></div>
                 <div><a href="/cart.html"> <span class="cartno">|| Cart ||</span> </a></div> 
                 <div>
-                        <a href="/signup1.html"> <span class="user"> Login</span></a>
+                        <a href="/signup.html"> <span class="user"> Login</span></a>
                 </div>
               </div>
             </div>
@@ -272,12 +396,13 @@ margin-top: 20px;
          </header><!-- header end -->
 
          <div id="fImage">
-            <img src="https://www.reliancedigital.in/medias/MIdnight-Sale-Carousel-07-12-2022.jpg?context=bWFzdGVyfGltYWdlc3w5OTA2OXxpbWFnZS9qcGVnfGltYWdlcy9oNzYvaGM5Lzk5MjgzODQ4Mzk3MTAuanBnfGUxZTBiNDNlOGU2ZWUzMzg2YjU3MWMwYmJiNTBhZjM5ODdkMzhjYjNiYWZhYzllYWJmNzE0MGY4MTFmMjY3MDU" alt="Image">
+            
+            <!-- <img src="https://www.reliancedigital.in/medias/MIdnight-Sale-Carousel-07-12-2022.jpg?context=bWFzdGVyfGltYWdlc3w5OTA2OXxpbWFnZS9qcGVnfGltYWdlcy9oNzYvaGM5Lzk5MjgzODQ4Mzk3MTAuanBnfGUxZTBiNDNlOGU2ZWUzMzg2YjU3MWMwYmJiNTBhZjM5ODdkMzhjYjNiYWZhYzllYWJmNzE0MGY4MTFmMjY3MDU" alt="Image"> -->
          </div>
 
         <div id="line">
-       <span>Personal Care Carnival   </span>
-       <button>View all</button>
+       <span>Personal Care Carnival</span>
+       <a href="view.html"><button>View all</button></a>
         </div>
 
         <div id="product">
@@ -328,7 +453,7 @@ margin-top: 20px;
 
 <div id="line1">
     <span>Pre Summer Sale | Upto 60% Off   </span>
-    <button>View all</button>
+    <a href="view.html"><button>View all</button></a>
 </div>
 
 
@@ -380,7 +505,7 @@ margin-top: 20px;
 
 <div id="line3">
 
-    <p>Great Deals  On  Electronics</p>
+    <p>Great Deals  On  Electronics  </p>
 </div>
 <div id="tv">
 
@@ -404,6 +529,171 @@ margin-top: 20px;
 
 </div>
 
+<div id="line4">
+    <span>Apple Watches at Best Prices </span>
+    <a href="view.html"><button>View all</button></a>
+</div>
+<div id="product2">
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Apple-Ultra-Sports-Fitness-Watches-493177934-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1ODc2NHxpbWFnZS9qcGVnfGltYWdlcy9oODQvaDY3Lzk4OTE5MzgxNzI5NTguanBnfDFmMGJiNGQzMTVlMDk1ZGUzNDgyYzEyMjRiNWRlYjUxMGUwNmZkNjgzMTExMGJhMWVmNGU3YWVhOTYzZGM2MjU" alt="trimmer">
+   <p id="b">Apple Watch Series 8 GPS + Cellular 45mm Silver Aluminium</p>
+   <p>Offer Price: ₹55,366.00</p>
+   <p>M.R.P: ₹50,900.00</p>
+   <p>You Save: 6%(₹3,534)</p>
+   </div>
+   <div>
+    <img src="https://www.reliancedigital.in/medias/Apple-Ultra-Sports-Fitness-Watches-493177937-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2NjAyN3xpbWFnZS9qcGVnfGltYWdlcy9oZjcvaGE0Lzk4OTE5NDUwNTQyMzguanBnfDUzMWY2ZWFjYTBiMzAzZDA3MjFlOGRiOTlhZjQyYjMzNzFjNmZjYTQyMzNmYWYwNzUzYjdjODlkZmU2Y2UxZDU" alt="trimmer">
+<p id="b">Apple Watch Series 8 GPS + Cellular 45mm Silver Aluminium</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+<div>
+    <img src="https://www.reliancedigital.in/medias/Apple-SE-Sports-Fitness-Watches-493177920-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDMwNHxpbWFnZS9qcGVnfGltYWdlcy9oM2EvaDJmLzk4OTE5ODE4MTk5MzQuanBnfDg2M2Y5MTJmM2Y1YzU2OTQ5YTE4NzdjZmQwYThlNmU2ZjFjNjA3MTcwOWQzMTNiNTYxNWEwMWZhNTcyNjBiMjc" alt="trimmer">
+<p id="b">Apple Watch Series 8 GPS + Cellular 45mm Silver Aluminium</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+<div>
+    <img src="https://www.reliancedigital.in/medias/Apple-SE-Sports-Fitness-Watches-493177921-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNjk1M3xpbWFnZS9qcGVnfGltYWdlcy9oNjAvaDhhLzk4OTE5ODYwNzk3NzQuanBnfGVkNWZhOGU5YjI5NjZhNjQ3ZjUwNjZjYmRhNTU5YmVjOTMzZmFiZDA1YjY1NmExZjRhNGY0N2I3ODg4NzQxMzg" alt="trimmer">
+<p id="b">Apple Watch Series 8 GPS + Cellular 45mm Silver Aluminium</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+<div>
+    <img src="https://www.reliancedigital.in/medias/Apple-Ultra-Sports-Fitness-Watches-493177934-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1ODc2NHxpbWFnZS9qcGVnfGltYWdlcy9oODQvaDY3Lzk4OTE5MzgxNzI5NTguanBnfDFmMGJiNGQzMTVlMDk1ZGUzNDgyYzEyMjRiNWRlYjUxMGUwNmZkNjgzMTExMGJhMWVmNGU3YWVhOTYzZGM2MjU" alt="trimmer">
+<p id="b">Apple Watch Series 8 GPS + Cellular 45mm Silver Aluminium</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+
+</div>
+
+
+<div id="line5">
+    <span>Apple Watches at Best Prices </span>
+    <a href="view.html"><button>View all</button></a>
+</div>
+<div id="product3">
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Apple-MGN63HNA-Laptops-491946461-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MjM5M3xpbWFnZS9qcGVnfGltYWdlcy9oYzcvaDE0Lzk0NDMwODM3ODAxMjYuanBnfGUwMGRjNjBhZDVlM2NlMmUyYmFhMTk1MjNmMDM5NTEzMWUzODRhODE0ZjdmOWM2OGEyODBjYjhjMGNlOWExZWY" alt="trimmer">
+   <p id="b">Apple MGN63HNA MacBook Air (Apple M1)</p>
+   <p>Offer Price: ₹55,366.00</p>
+   <p>M.R.P: ₹50,900.00</p>
+   <p>You Save: 6%(₹3,534)</p>
+   </div>
+   <div>
+    <img src="https://www.reliancedigital.in/medias/Lenovo-82H701DNIN-Laptop-493178905-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNzk1OXxpbWFnZS9qcGVnfGltYWdlcy9oMDAvaDNiLzk5MTU0OTQ4MjYwMTQuanBnfDVmOGM3MzNkZWU2YjA4ZTNiNjlhYzgyOWQwMDA2ZTRiNzA5OWQ0ODhmZTI2YWQyMjJmNzcyMGFlMTc2NGM3Njg" alt="trimmer">
+<p id="b">Lenovo IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4/8</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+<div>
+    <img src="https://www.reliancedigital.in/medias/HP-6Q2M3PA-ACJ-Laptop-493177049-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDMwM3xpbWFnZS9qcGVnfGltYWdlcy9oZDgvaDYyLzk4NjQyODcwNTk5OTguanBnfGI5YjAxYjQ4MjliZjhjODU0NWY0NjJkODQ0MmJhZmI5Y2RmZTQ1NGZhZTg2MWFiOTRjMjQ2MzdjMzIwODg4Yjk" alt="trimmer">
+<p id="b">Apple MGN63HNA MacBook Air (Apple M1)</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+<div>
+    <img src="https://www.reliancedigital.in/medias/Hp-6N044PA-ACJ-Laptop-493177596-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyOTYwMHxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaDMwLzk4ODIyOTA4NDc3NzQuanBnfDgzNzE4ZTExMDNkZmY1YmM2MzQyMWUwY2Y2NGRjMTA1MDJjNDVkNjQ5MTk0ZWIyMTA2NWQwY2I2MWNjOGQzZWI" alt="trimmer">
+<p id="b">Lenovo IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4/8</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+<div>
+    <img src="https://www.reliancedigital.in/medias/Lenovo-L2IN-Laptops-492574725-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2MTQ2NnxpbWFnZS9qcGVnfGltYWdlcy9oZmIvaGQyLzk3NDczMjk5NzQzMDIuanBnfDMxMDY2NDQ1MjE3ZDFjOTZiNjRmYTE0NTlhNmYzMWZmNGNjNjY3NzhkZjE2MTdlZTZmMzE2Yjc3NDBmNjYwMGU" alt="trimmer">
+<p id="b">Lenovo IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4/8</p>
+<p>Offer Price: ₹55,366.00</p>
+<p>M.R.P: ₹50,900.00</p>
+<p>You Save: 6%(₹3,534)</p>
+</div>
+
+</div>
+
+<div id="last">
+ <h2> EXPLORE OUR RANGE OF PRODUCTS</h2>
+</div>
+<div id="product4">
+
+    <div>
+        <img src="https://www.reliancedigital.in/medias/iphone-pro-11-01.png?context=bWFzdGVyfGltYWdlc3wyOTc3NnxpbWFnZS9wbmd8aW1hZ2VzL2gxNi9oNWUvOTI3NjA1OTkxMDE3NC5wbmd8MzdkYzljODgzMDcyM2ZjMjJmZDI2ZjMwNjhkZmU5YjFmOTJmMGRmOTFiYzc4ZjcyMDRhMjQ5MWMyNjYwOTgxYg" alt="">
+    <p>Smartphones</p>
+    </div>
+
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Washing-Machine-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3wzNDU4MXxpbWFnZS9wbmd8aW1hZ2VzL2gzOC9oM2UvOTI1MTA1MDg4MTA1NC5wbmd8ZDAyZGNkMzU1MzE3N2E2OGFlOTliMzUyODZkYzlkNTc0NzFmODllY2JiZDVlNzdhYjg3MTgyMTc4ZGVhODA3ZA" alt="">
+    <p>Washing Machines</p>
+    </div>
+    <div>
+        <img src="https://www.reliancedigital.in/medias/Laptop-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3wyOTAwOXxpbWFnZS9wbmd8aW1hZ2VzL2g0Mi9oNTYvOTI1MTA1MDYxODkxMC5wbmd8N2ZjYTg0ZDAyOTZmMmQ5OTZhZDNiM2M4NDg0ZDgxY2UyNzNjMmJiYzMwZTZiOGQwOWE5N2JlZDI4M2ViMGZjNw" alt="">
+    <p>Laptops</p>
+    </div>
+    <div>
+<img src="https://www.reliancedigital.in/medias/TV-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3w0OTM4M3xpbWFnZS9wbmd8aW1hZ2VzL2g1ZC9oMTEvOTI1MTA1MDU1MzM3NC5wbmd8MThiNmU4NTZiNWI5MTE1ZGVjYjA4ZjIwM2QwZjUyMzFlOGExZTY0YmQ0MTRkYTkyN2M2MDZiYzUzZDY1ZjM4Ng" alt="">
+<p>Televisions</p>
+    </div>
+    <div>
+<img src="https://www.reliancedigital.in/medias/Watch-180x180-27-02-2020.png?context=bWFzdGVyfGltYWdlc3w2Njk2fGltYWdlL3BuZ3xpbWFnZXMvaGQ1L2g2My85MjUzNTA3NTk2MzE4LnBuZ3w4NmEwODU5NDI5YzVlMzJjNzRlNzNlYmJkMmJmYTZjMTI2OWY0YTUxYWU3YzMzM2E3YTc5YjljZmU4ZGMyNGQ2" alt="">
+<p>Smart Wearables</p>
+    </div>
+</div>
+
+<div id="lastbtn">
+    <a href="view.html"><button>View All</button></a>
+</div>
     
 </body>
+
+
+
+<script>
+
+
+
+function slideshow(slide){
+
+    
+    Imagein = 0;
+    let firstImage = document.getElementById("fImage");
+
+let upImage = document.createElement("img");
+upImage.src = slide[0]
+firstImage.append(upImage)
+
+setInterval(function(){
+   Imagein++;
+
+   if(Imagein==slide.length-1){
+    Imagein=0;
+   }
+   upImage.src = slide[Imagein];
+
+   firstImage.append(upImage);
+
+ 
+
+},2000)
+
+}
+
+
+
+let slide = [ "https://www.reliancedigital.in/medias/FOXSKY-TV-CLP-Banner-01-12-2022.jpg?context=bWFzdGVyfGltYWdlc3w4ODExNnxpbWFnZS9qcGVnfGltYWdlcy9oMTEvaDdmLzk5MzkyMDQ4OTg4NDYuanBnfGU0N2U2NTI0NDAxOTgwNWViY2JlZmVjNGUxOGUzOGQ3ZTRmZDQ4NmQwOGVhOTZjYjViYTM3MzNhYzExOGU1ZmQ",
+"https://www.reliancedigital.in/medias/Hisense-TV-CLP-Banner-30-12-2022.jpg?context=bWFzdGVyfGltYWdlc3wyMjI1Mjh8aW1hZ2UvanBlZ3xpbWFnZXMvaGVjL2g3OS85OTM5MjA1MDI5OTE4LmpwZ3w4ZmY0ZDc5NjJjYjM1ZmFjZDFlZjViZmJmNzEwOGI2NGI1NmYzNGY3YWEyMTY2NGI2M2M1MjM0YTk2MWEwOTJm",
+"https://www.reliancedigital.in/medias/TCL-QLED-4K-TV-C635-CLP-Banner-17-02-2023.jpg?context=bWFzdGVyfGltYWdlc3wxNTg1MDd8aW1hZ2UvanBlZ3xpbWFnZXMvaDMxL2hjMy85OTYyODAzODg4MTU4LmpwZ3xjY2M5NTY0MTY4NWFmYTgyNTgxMDY0Njc5YmI3MzU0NzgyOWEyZDg0NTZmZWY0YjczZmQxZjFlZDgzMzZlMzE5",
+"https://www.reliancedigital.in/medias/OnePlus-TVs-CLP-Banner-21-02-2023.jpg?context=bWFzdGVyfGltYWdlc3wxMzA3Mzd8aW1hZ2UvanBlZ3xpbWFnZXMvaDhhL2g3OS85OTY0MzM5MzMxMTAyLmpwZ3xhZWE5NjNhOWVkNDFkNmNhMWFiODM5OWRkZmMxNGYxZjA5N2EzMzI1YmNkNGFmYzEwNDNjOTk0ODMyZTlmNTg5"];
+
+window.addEventListener("load", function () {
+
+slideshow(slide)
+// add event-listeners;
+});
+
+</script>
 </html>
