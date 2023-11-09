@@ -1,4 +1,4 @@
-# melted-lace-627
+# Smart_digital
 
 <p>This is the clone og Relience Digital clone.</p>
 <p> this is the E-commerce website for selling the Electronic products</p>
